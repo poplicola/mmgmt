@@ -6,4 +6,7 @@ class User < ApplicationRecord
                     length: {maximum: 255}, 
                     email_format: {message: "doesn't look like an email address"},
                     uniqueness: {case_sensitive: false}
+                    
+  has_secure_password
+  validates :password, presence: true, length: { minimum: 6 }
 end

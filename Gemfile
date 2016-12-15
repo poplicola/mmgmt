@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'stripe'
 # For email validation
 gem 'validates_email_format_of'
+# For strong passwords
+gem 'bcrypt'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
