@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'page/usermanagement'
+
   get 'page/home'
 
   get 'page/contact'

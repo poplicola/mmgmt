@@ -11,4 +11,8 @@ class PageControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get usermanagement" do
+    get page_usermanagement_url
+    assert_response :success
+  end
 end

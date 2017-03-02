@@ -7,4 +7,7 @@ class PageController < ApplicationController
 
   def contact
   end
+  
+  def usermanagement
+  end
 end
